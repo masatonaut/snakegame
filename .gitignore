@@ -1,0 +1,70 @@
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon\r\r
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# General ignore patterns
+*.swp
+*.lock
+*.pyc
+*.pyo
+*.idea
+.idea/
+.vscode/
+__pycache__/
+*.iml
+target/
+out/
+build/
+*.class
+
+# macOS ._ files are stored on non-HFS volumes
+._*
+
+# Avoid ignoring directories in general
+!.gitignore
+
+# Ignore node_modules, if applicable
+node_modules/
+npm-debug.log*
+
+# Ignore log files and SQLite databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore by-products of bower
+bower_components/
+
+# Ignore environment variables files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore yarn files
+.yarn-integrity
+.yarn-error.log
+.pnp.*
